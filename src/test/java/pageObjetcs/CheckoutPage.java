@@ -19,7 +19,7 @@ public class CheckoutPage extends CheckoutPageElementMapper {
     public CheckoutPage() {
         PageFactory.initElements(Browser.getCurrentDriver(), this);
     }
-    @Description("Exibe a tela de resumo de compras")
+
     @Step("Clicou em ProceedToCheckout")
     public void clickProceedToCheckoutSumary() {
         buttonProceedToCheckoutSumary.click();

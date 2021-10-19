@@ -11,7 +11,7 @@ public class CreatAccountPage extends CreatAccountPageElementMapper {
     public CreatAccountPage() {
         PageFactory.initElements(Browser.getCurrentDriver(), this);
     }
-    @Description("Bloco Your Adress")
+
     @Step("Escolheu o Title(Mr. or Mrs)")
     public void selectTitleMr(){
         IdGender1.click();
@@ -52,7 +52,6 @@ public class CreatAccountPage extends CreatAccountPageElementMapper {
     public void fillFirstNameYourAdress (String text) {
     firstName.sendKeys(text);
     }
-    @Description("Bloco Your Adress")
     @Step("Preencheu o segundo nome no bloco endereço")
     public void fillLastNameYourAdress( String text) {
         lastName.sendKeys(text);
