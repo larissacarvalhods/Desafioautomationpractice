@@ -1,0 +1,35 @@
+# Created on 2021-10-19T11:35:03.519
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:386)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created on 2021-10-19T11:35:04.472
+Unexpected IOException: 7,1,testes.SetupTestes,testBuyProduct(testes.SetupTestes),null,Cannot locate an element using class name=login\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-93SCU3O'\002C ip: '192.168.56.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_202'\000ADriver info: driver.version: RemoteWebDriver,null,Cannot locate an element using class name=login\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-93SCU3O'\002C ip: '192.168.56.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_202'\000ADriver info: driver.version: RemoteWebDriver,SetupTestes.testBuyProduct:145 \00BB NoSuchElement Cannot locate an element using ...,org.openqa.selenium.NoSuchElementException: \000ACannot locate an element using class name=login\000AFor documentation on this error\002C please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\000ABuild info: version: '3.141.59'\002C revision: 'e82be7d358'\002C time: '2018-11-14T08:17:03'\000ASystem info: host: 'DESKTOP-93SCU3O'\002C ip: '192.168.56.1'\002C os.name: 'Windows 10'\002C os.arch: 'amd64'\002C os.version: '10.0'\002C java.version: '1.8.0_202'\000ADriver info: driver.version: RemoteWebDriver\000A\0009at testes.SetupTestes.testBuyProduct(SetupTestes.java:145)\000A
+
+
+# Created on 2021-10-19T11:35:05.948
+Unexpected IOException with stream: out 19, 2021 11:35:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+
+
+# Created on 2021-10-19T11:35:06.105
+Unexpected IOException: 5,1,testes.SetupTestes,testOpeningAndLoadingPage(testes.SetupTestes),null,null,null
+
+
+# Created on 2021-10-19T11:35:12.062
+Unexpected IOException: 6,1,testes.SetupTestes,testOpeningAndLoadingPage(testes.SetupTestes),null,null,null
+
+
+# Created on 2021-10-19T11:35:13.646
+Unexpected IOException with stream: out 19, 2021 11:35:13 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFORMAÇÕES: Detected dialect: W3C
+
+
+# Created on 2021-10-19T11:35:13.816
+Unexpected IOException: 5,1,testes.SetupTestes,creatAccountTest(testes.SetupTestes),null,null,null
+
+

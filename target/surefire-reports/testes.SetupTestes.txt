@@ -1,0 +1,100 @@
+-------------------------------------------------------------------------------
+Test set: testes.SetupTestes
+-------------------------------------------------------------------------------
+Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 34.189 s <<< FAILURE! - in testes.SetupTestes
+testeLogin(testes.SetupTestes)  Time elapsed: 0.031 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-93SCU3O', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: RemoteWebDriver
+	at testes.SetupTestes.<init>(SetupTestes.java:23)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:4444
+	at testes.SetupTestes.<init>(SetupTestes.java:23)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at testes.SetupTestes.<init>(SetupTestes.java:23)
+
+testBuyProduct(testes.SetupTestes)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-93SCU3O', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: RemoteWebDriver
+	at testes.SetupTestes.<init>(SetupTestes.java:23)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:4444
+	at testes.SetupTestes.<init>(SetupTestes.java:23)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at testes.SetupTestes.<init>(SetupTestes.java:23)
+
+testOpeningAndLoadingPage(testes.SetupTestes)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-93SCU3O', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: RemoteWebDriver
+	at testes.SetupTestes.<init>(SetupTestes.java:23)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:4444
+	at testes.SetupTestes.<init>(SetupTestes.java:23)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at testes.SetupTestes.<init>(SetupTestes.java:23)
+
+creatAccountTest(testes.SetupTestes)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-93SCU3O', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: RemoteWebDriver
+	at testes.SetupTestes.<init>(SetupTestes.java:23)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:4444
+	at testes.SetupTestes.<init>(SetupTestes.java:23)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at testes.SetupTestes.<init>(SetupTestes.java:23)
+
+testAcessyCategoryTshirts(testes.SetupTestes)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-93SCU3O', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: RemoteWebDriver
+	at testes.SetupTestes.<init>(SetupTestes.java:23)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:4444
+	at testes.SetupTestes.<init>(SetupTestes.java:23)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at testes.SetupTestes.<init>(SetupTestes.java:23)
+
+testAddProductToProductPage(testes.SetupTestes)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-93SCU3O', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: RemoteWebDriver
+	at testes.SetupTestes.<init>(SetupTestes.java:23)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:4444
+	at testes.SetupTestes.<init>(SetupTestes.java:23)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at testes.SetupTestes.<init>(SetupTestes.java:23)
+
+testSearch(testes.SetupTestes)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-93SCU3O', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: RemoteWebDriver
+	at testes.SetupTestes.<init>(SetupTestes.java:23)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:4444
+	at testes.SetupTestes.<init>(SetupTestes.java:23)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at testes.SetupTestes.<init>(SetupTestes.java:23)
+
+testAddProductToCarPage(testes.SetupTestes)  Time elapsed: 0 s  <<< ERROR!
+org.openqa.selenium.remote.UnreachableBrowserException: 
+Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-93SCU3O', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
+Driver info: driver.version: RemoteWebDriver
+	at testes.SetupTestes.<init>(SetupTestes.java:23)
+Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:4444
+	at testes.SetupTestes.<init>(SetupTestes.java:23)
+Caused by: java.net.ConnectException: Connection refused: connect
+	at testes.SetupTestes.<init>(SetupTestes.java:23)
+
