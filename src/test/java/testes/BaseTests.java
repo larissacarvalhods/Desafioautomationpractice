@@ -14,6 +14,7 @@ public class BaseTests {
 
     @After
     public void tearmDronw(){
+        Browser.print();
      Browser.close();
 
     }
