@@ -1,6 +1,8 @@
 package  pageObjetcs;
 
 import  elementMapper.CheckoutPageElementMapper;
+import io.qameta.allure.Description;
+import io.qameta.allure.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.support.PageFactory;
@@ -17,28 +19,30 @@ public class CheckoutPage extends CheckoutPageElementMapper {
     public CheckoutPage() {
         PageFactory.initElements(Browser.getCurrentDriver(), this);
     }
-
+    @Description("Exibe a tela de resumo de compras")
+    @Step("Clicou em ProceedToCheckout")
     public void clickProceedToCheckoutSumary() {
         buttonProceedToCheckoutSumary.click();
     }
-
+    @Step("Clicou em proceed to checkout")
     public void clickProceedToCheckout() {
         buttonProceedToCheckout.click();
     }
-
+    @Step("Adicionou um comentário sobre seu pedido")
     public void fillAddCommentOrder(String text) {
 
         message.sendKeys(text);
     }
-
+    @Step( " Clicou em aceitar termos de serviço")
     public void selectAceptTermsOfService() {
         cgv.click();
     }
 
+    @Step("Selecionou o método de pagamento por transferência bancária")
     public void selectPaymanetMethod() {
         payByBank.click();
     }
-
+    @Step("Clicou em confirmar pedido")
     public void clickConfirmOrder() {
         confirmOrder.click();
     }

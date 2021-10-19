@@ -1,100 +1,17 @@
 -------------------------------------------------------------------------------
 Test set: testes.SetupTestes
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 0, Errors: 8, Skipped: 0, Time elapsed: 34.189 s <<< FAILURE! - in testes.SetupTestes
-testeLogin(testes.SetupTestes)  Time elapsed: 0.031 s  <<< ERROR!
-org.openqa.selenium.remote.UnreachableBrowserException: 
-Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Tests run: 8, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 389.675 s <<< FAILURE! - in testes.SetupTestes
+creatAccountTest(testes.SetupTestes)  Time elapsed: 52.035 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"css selector","selector":"#center_column .page-heading"}
+  (Session info: chrome=94.0.4606.81)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: 'DESKTOP-93SCU3O', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: driver.version: RemoteWebDriver
-	at testes.SetupTestes.<init>(SetupTestes.java:23)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:4444
-	at testes.SetupTestes.<init>(SetupTestes.java:23)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at testes.SetupTestes.<init>(SetupTestes.java:23)
-
-testBuyProduct(testes.SetupTestes)  Time elapsed: 0 s  <<< ERROR!
-org.openqa.selenium.remote.UnreachableBrowserException: 
-Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-93SCU3O', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: driver.version: RemoteWebDriver
-	at testes.SetupTestes.<init>(SetupTestes.java:23)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:4444
-	at testes.SetupTestes.<init>(SetupTestes.java:23)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at testes.SetupTestes.<init>(SetupTestes.java:23)
-
-testOpeningAndLoadingPage(testes.SetupTestes)  Time elapsed: 0 s  <<< ERROR!
-org.openqa.selenium.remote.UnreachableBrowserException: 
-Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-93SCU3O', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: driver.version: RemoteWebDriver
-	at testes.SetupTestes.<init>(SetupTestes.java:23)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:4444
-	at testes.SetupTestes.<init>(SetupTestes.java:23)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at testes.SetupTestes.<init>(SetupTestes.java:23)
-
-creatAccountTest(testes.SetupTestes)  Time elapsed: 0 s  <<< ERROR!
-org.openqa.selenium.remote.UnreachableBrowserException: 
-Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-93SCU3O', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: driver.version: RemoteWebDriver
-	at testes.SetupTestes.<init>(SetupTestes.java:23)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:4444
-	at testes.SetupTestes.<init>(SetupTestes.java:23)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at testes.SetupTestes.<init>(SetupTestes.java:23)
-
-testAcessyCategoryTshirts(testes.SetupTestes)  Time elapsed: 0 s  <<< ERROR!
-org.openqa.selenium.remote.UnreachableBrowserException: 
-Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-93SCU3O', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: driver.version: RemoteWebDriver
-	at testes.SetupTestes.<init>(SetupTestes.java:23)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:4444
-	at testes.SetupTestes.<init>(SetupTestes.java:23)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at testes.SetupTestes.<init>(SetupTestes.java:23)
-
-testAddProductToProductPage(testes.SetupTestes)  Time elapsed: 0 s  <<< ERROR!
-org.openqa.selenium.remote.UnreachableBrowserException: 
-Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-93SCU3O', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: driver.version: RemoteWebDriver
-	at testes.SetupTestes.<init>(SetupTestes.java:23)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:4444
-	at testes.SetupTestes.<init>(SetupTestes.java:23)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at testes.SetupTestes.<init>(SetupTestes.java:23)
-
-testSearch(testes.SetupTestes)  Time elapsed: 0 s  <<< ERROR!
-org.openqa.selenium.remote.UnreachableBrowserException: 
-Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-93SCU3O', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: driver.version: RemoteWebDriver
-	at testes.SetupTestes.<init>(SetupTestes.java:23)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:4444
-	at testes.SetupTestes.<init>(SetupTestes.java:23)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at testes.SetupTestes.<init>(SetupTestes.java:23)
-
-testAddProductToCarPage(testes.SetupTestes)  Time elapsed: 0 s  <<< ERROR!
-org.openqa.selenium.remote.UnreachableBrowserException: 
-Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
-Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
-System info: host: 'DESKTOP-93SCU3O', ip: '192.168.56.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_202'
-Driver info: driver.version: RemoteWebDriver
-	at testes.SetupTestes.<init>(SetupTestes.java:23)
-Caused by: java.net.ConnectException: Failed to connect to localhost/0:0:0:0:0:0:0:1:4444
-	at testes.SetupTestes.<init>(SetupTestes.java:23)
-Caused by: java.net.ConnectException: Connection refused: connect
-	at testes.SetupTestes.<init>(SetupTestes.java:23)
+Driver info: org.openqa.selenium.remote.RemoteWebDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 94.0.4606.81, chrome: {chromedriverVersion: 94.0.4606.61 (418b78f5838ed..., userDataDir: C:\Users\laris\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:64586}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true, webdriver.remote.sessionid: 882f64e27b1e4d3f145bd320f5a...}
+Session ID: 882f64e27b1e4d3f145bd320f5a9dd62
+*** Element info: {Using=css selector, value=#center_column .page-heading}
+	at testes.SetupTestes.creatAccountTest(SetupTestes.java:133)
 

@@ -1,6 +1,8 @@
 package testes;
 
+import io.qameta.allure.Description;
 import io.qameta.allure.Feature;
+import io.qameta.allure.Step;
 import io.qameta.allure.Story;
 import org.hamcrest.CoreMatchers;
 import org.junit.Test;
@@ -41,6 +43,7 @@ public class SetupTestes extends BaseTests {
     }
 
     @Story("Realizar Login")
+    @Description("O usuário realiza o login com sucesso")
     @Test
     public void testeLogin(){
 
@@ -52,7 +55,8 @@ public class SetupTestes extends BaseTests {
         assertTrue(Browser.getCurrentDriver().getCurrentUrl().contains(Utils.getBaseUrl().concat("/index.php?controller=my-account")));
     }
 
-    @Story("Realizar busca de um produto")
+    @Story("Realizar uma busca de um produto")
+    @Description("O usuário realiza uma busca no campo search")
     @Test
     public void testSearch(){
 
@@ -65,13 +69,15 @@ public class SetupTestes extends BaseTests {
     }
 
     @Story("Acessar categoria")
+    @Description("O usuário acessa uma categoria de produtos")
     @Test
     public void  testAcessyCategoryTshirts(){
         home.clickCategoryTshirts();
         assertTrue(category.isPageTshirts());
     }
 
-    @Story("Adicionar produto no carrinho")
+    @Story("Adicionar um produto no carrinho")
+    @Description("O usuario adiciona um produto no carrinho")
     @Test
     public void testAddProductToProductPage(){
         String nameProductCategory = category.getProductNameCategory();
@@ -96,7 +102,8 @@ public class SetupTestes extends BaseTests {
 
     //Desafio WEB
 
-    @Story("Realizar Cadastro")
+    @Story("Realizar um Cadastro")
+    @Description("O Usuário cria uma conta com sucesso")
     @Test
     public void creatAccountTest(){
 
@@ -138,6 +145,7 @@ public class SetupTestes extends BaseTests {
     //Desafio Web
 
      @Story("Realizar uma compra")
+     @Description("O usuário realiza uma compra com sucesso")
      @Test
      public void testBuyProduct()  {
 
@@ -153,7 +161,7 @@ public class SetupTestes extends BaseTests {
          //Adiciona produto no carinho
          category.clickProductAddToCart();
          category.clickProceed();
-         //Checkout das compras
+         //Check out das compras
          checkout.clickProceedToCheckoutSumary();
          checkout.fillAddCommentOrder("others");
          checkout.clickProceedToCheckout();
