@@ -56,7 +56,7 @@ public class SetupTestes extends BaseTests {
     }
 
     @Story("Realizar uma busca de um produto")
-    @Description("O usuário realiza uma busca no campo search")
+    @Description("O usuário realiza uma busca de um produto no site")
     @Test
     public void testSearch(){
 
@@ -69,7 +69,7 @@ public class SetupTestes extends BaseTests {
     }
 
     @Story("Acessar categoria")
-    @Description("O usuário acessa uma categoria de produtos")
+    @Description("O usuário acessa  categoria de produtos")
     @Test
     public void  testAcessyCategoryTshirts(){
         home.clickCategoryTshirts();
@@ -149,7 +149,7 @@ public class SetupTestes extends BaseTests {
      @Test
      public void testBuyProduct()  {
 
-         //Acessa Sin in
+         //Acessa Sing in
          home.clickBtnLogim();
          // Preenche dados no bloco " ALREADY REGISTERED?"
          login.fillEmail("jose.silva@gmail.com");
