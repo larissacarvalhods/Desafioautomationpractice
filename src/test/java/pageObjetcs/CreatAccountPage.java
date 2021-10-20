@@ -16,7 +16,7 @@ public class CreatAccountPage extends CreatAccountPageElementMapper {
     public void selectTitleMr(){
         IdGender1.click();
     }
-    @Description("Bloco Your Adress")
+
     @Step("Escolheu o Title(Mr. or Mrs)")
     public void selectTitleMrs(){
         IdGender2.click();
