@@ -86,20 +86,6 @@ public class SetupTestes extends BaseTests {
         assertEquals(pdp.getProductNamePDP(),(nameProductCategory));
     }
 
-    @Story("")
-    @Test
-    public void testAddProductToCarPage(){
-
-        testAddProductToProductPage();
-        String nameProductPDP = pdp.getProductNamePDP();
-        System.out.println(pdp.getProductNamePDP());
-        pdp.clickButtonAddToCart();
-        pdp.clickButtonModalProceedToCheckout();
-
-        assertEquals(cart.getNameProductCart(),(nameProductPDP));
-
-    }
-
     //Desafio WEB
 
     @Story("Realizar um Cadastro")
